@@ -1,0 +1,99 @@
+body {
+    background-color: #ebbbe3; /* Cor de fundo bege */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffe4e1; /* Cor de fundo suave */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.textos {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+h2 {
+    
+        color: #851d0b; /* Cor do título */
+        text-align: center; /* Centraliza o texto */
+    
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffe4e1; /* Cor de fundo suave */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.gif-container {
+    position: absolute; /* Para posicionar o GIF */
+    right: 20px; /* Distância da borda direita */
+    top: 20px; /* Distância do topo */
+}
+
+.gif {
+    width: 100px; /* Defina o tamanho do GIF */
+    height: auto; /* Mantém a proporção do GIF */
+}
+
+img{
+	height: 30px;
+	width: 30px;
+	animation: image 4s linear infinite;
+}
+@keyframes image{
+	0%{transform: scale(.5);}
+	50%{transform: scale(1.5);}
+	100%{transform: scale(.5);}
+}
+
+.textos p {
+    text-align: center; /* Centraliza o texto */
+}
+
+.giff-container {
+    position: absolute; /* Para posicionar o GIF */
+    left: 20px; /* Distância da borda esquerda */
+    top: 62px; /* Distância do topo */
+}
+
+.giff {
+    width: 70px; /* Defina o tamanho do GIF */
+    height: auto; /* Mantém a proporção do GIF */
+}
+
+.botao {
+    display: inline-block; /* Para que o link se comporte como um botão */
+    padding: 10px 20px; /* Espaçamento interno */
+    background-color: #c40f63; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+    margin-top: 20px; /* Espaço acima do botão */
+}
+
+.botao:hover {
+    background-color: #e254ac; /* Cor de fundo ao passar o mouse */
+}
